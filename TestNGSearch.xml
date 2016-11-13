@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="runSearchTestt" verbose="1" >
+
+    <test name="TestCaseSearch">
+        <classes>
+            <class name="AdvansedSearchTest"/>
+        </classes>
+    </test>
+</suite>
