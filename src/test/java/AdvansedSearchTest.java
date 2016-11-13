@@ -27,6 +27,10 @@ public class AdvansedSearchTest extends BaseTest {
         };
     }
 
+    /**
+     * @param searchTerm in search field
+     * @param expectedContaintedTerm
+     */
     @Test(dataProvider = "SearchTerms")
     public void AdvancedSearchTest(String searchTerm, String expectedContaintedTerm) {
         SearchInformationPage advancedSearchPage = homePage.clikAdvancedSearchBtn();
