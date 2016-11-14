@@ -1,2 +1,2 @@
-# itea-auto-tests
-ITEA sample test automation project
+# Sample-test-automation
+Sample test automation project social networks
