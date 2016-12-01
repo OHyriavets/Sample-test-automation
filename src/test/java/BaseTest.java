@@ -18,8 +18,8 @@ public class BaseTest {
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);//ожидаем 10 сек, перед каждым действием
 	}
 
-	/*@AfterClass
+	@AfterClass
 	public void tearDown() {
 		driver.quit();
-	}*/
+	}
 }
