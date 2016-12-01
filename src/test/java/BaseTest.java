@@ -15,7 +15,7 @@ public class BaseTest {
 		System.setProperty("webdriver.gecko.driver","C:\\geckodriver-0.11.1\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.get("https://www.linkedin.com/");
-		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);//ожидаем 10 сек, перед каждым действием
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
 	@AfterClass
